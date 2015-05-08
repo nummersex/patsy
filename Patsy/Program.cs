@@ -9,11 +9,12 @@ namespace Patsy
     {
         private const int START_HOUR = 9;
         private const int FINISH_HOUR = 17;
+        private const string DIRECTORY = @"C:\Users\fw\Music\patsy-ljud";
 
         static void Main(string[] args)
         {
             WindowsMediaPlayer player = new WindowsMediaPlayer();
-            string[] files = Directory.GetFiles(@"C:\Users\fw\Music\patsy-ljud");
+            string[] files = Directory.GetFiles(DIRECTORY);
 
             Random rand = new Random();
             PictureHandling pictureHandling = new PictureHandling();
