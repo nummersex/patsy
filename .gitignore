@@ -1,0 +1,4 @@
+/.nuget/*.exe
+/*.suo
+/Patsy/bin/Debug
+/Patsy/obj/Debug
